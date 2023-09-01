@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "802298463631",
+    "project_id": "realtimedb-e0da1",
+    "storage_bucket": "realtimedb-e0da1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802298463631:android:24841140904302387537fa",
+        "android_client_info": {
+          "package_name": "com.aditya.realtimedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802298463631-ll9j1bsodqef0ca4joq406ebkgl8br5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aditya.realtimedb",
+            "certificate_hash": "03538dd62cc00a3aa31c6ac4f0370afdf981a38f"
+          }
+        },
+        {
+          "client_id": "802298463631-7fd4sc9lqnl6dddvrl8vfsr36pp8uh6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_1TnDr7g3MduI71MZk7ZAqoPr35kPFwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802298463631-7fd4sc9lqnl6dddvrl8vfsr36pp8uh6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
