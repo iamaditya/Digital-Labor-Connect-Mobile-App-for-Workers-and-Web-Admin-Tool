@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "404091137675",
+    "firebase_url": "https://digitallabour-8bffd-default-rtdb.firebaseio.com",
+    "project_id": "digitallabour-8bffd",
+    "storage_bucket": "digitallabour-8bffd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404091137675:android:fa2468c5004e6f6956ae8e",
+        "android_client_info": {
+          "package_name": "com.aditya.digitallabor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoVghP6U4Z0Yoqa2SRcZdOEbVsv5Y3JZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404091137675:android:63ba26bd2df719d656ae8e",
+        "android_client_info": {
+          "package_name": "com.aditya.labourdigital"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoVghP6U4Z0Yoqa2SRcZdOEbVsv5Y3JZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
