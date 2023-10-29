@@ -3,13 +3,18 @@ package com.aditya.labourdigital;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputType;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
@@ -23,6 +28,9 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.HashMap;
 
 public class UserActivity extends AppCompatActivity {
@@ -38,7 +46,10 @@ public class UserActivity extends AppCompatActivity {
     DatabaseReference db;
     String value;
 
+
     String[] loca = {"Himachal","Punjab","Haryana"};
+
+    int year, month, day;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,11 +70,36 @@ public class UserActivity extends AppCompatActivity {
         //user Details
         ed1 = findViewById(R.id.editTextText);
         ed2 = findViewById(R.id.editTextText2);
+
+        //disabling keyboard for calender
+        ed2.setInputType(InputType.TYPE_NULL); // or InputType.TYPE_DATETIME_VARIATION_DATE
+        ed2.setFocusable(true);
+        ed2.setClickable(true);
+        ed2.setFocusableInTouchMode(true);
+
         ed3 = findViewById(R.id.editTextPhone);
         ed4 = findViewById(R.id.editTextTextPostalAddress);
 
 
+        // setting on click listener for calander
 
+        Calendar calender = Calendar.getInstance();
+        ed2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                year = calender.get(calender.YEAR);
+                month = calender.get(calender.MONTH);
+                day = calender.get(calender.DAY_OF_MONTH);
+
+                DatePickerDialog datePickerDialog = new DatePickerDialog(UserActivity.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
+                        ed2.setText(i2+"/"+(i1+1)+"/"+i);
+                    }
+                },year,month,day);
+                datePickerDialog.show();
+            }
+        });
 
         // setting drop down menu for locations
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, loca);

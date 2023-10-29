@@ -2,6 +2,7 @@ package com.aditya.labourdigital;
 
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,R.color.grey));
+
         db = FirebaseDatabase.getInstance().getReference("Nishant Rattan");
 
         db.setValue("Aditya Sharma");
@@ -30,10 +33,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(l);
     }
 
-    public void registerme(View view){
-        Toast.makeText(this, "Register", Toast.LENGTH_SHORT).show();
-        Intent r = new Intent(getApplicationContext(), RegisterActivity.class);
-        startActivity(r);
-    }
 
 }
