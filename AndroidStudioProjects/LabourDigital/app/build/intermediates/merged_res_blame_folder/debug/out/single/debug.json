@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxhdpi_top_background.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxhdpi/top_background.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/font_playpenbold.ttf.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/font/playpenbold.ttf"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/xml_backup_rules.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/layout_activity_main.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-ldpi_imgimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-ldpi/imgimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-ldpi_bottom_white.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-ldpi/bottom_white.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xhdpi_facebook.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xhdpi/facebook.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-hdpi_labourimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-hdpi/labourimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-ldpi_labourimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-ldpi/labourimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-hdpi_girl.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-hdpi/girl.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xhdpi_top_background.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xhdpi/top_background.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-hdpi_facebook.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-hdpi/facebook.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxxhdpi_imgimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxxhdpi/imgimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxhdpi_girl.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxhdpi/girl.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-ldpi_girl.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-ldpi/girl.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/navigation_nav_graph.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/font_first.ttf.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/font/first.ttf"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xhdpi_bottom_white.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xhdpi/bottom_white.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/font_playpen_light.ttf.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/font/playpen_light.ttf"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/layout_activity_job.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_job.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxhdpi_bottom_white.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxhdpi/bottom_white.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/layout_activity_user.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_user.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable_editextbackground.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable/editextbackground.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-mdpi_top_background.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-mdpi/top_background.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/layout_activity_final_page.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_final_page.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-hdpi_imgimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-hdpi/imgimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxxhdpi_top_background.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxxhdpi/top_background.png"
+    },
+    {
+        "merged": "com.aditya.labourdigital.app-merged_res-45:/layout_activity_final_job_view.xml.flat",
+        "source": "com.aditya.labourdigital.app-main-47:/layout/activity_final_job_view.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable_button_design_file.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable/button_design_file.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-mdpi_imgimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-mdpi/imgimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-hdpi_google.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-hdpi/google.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-mdpi_bottom_white.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-mdpi/bottom_white.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/font_playpen_extra_light.ttf.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/font/playpen_extra_light.ttf"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable_button_background_file_yellow.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable/button_background_file_yellow.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxxhdpi_facebook.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxxhdpi/facebook.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxxhdpi_labourimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxxhdpi/labourimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-mdpi_girl.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-mdpi/girl.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-hdpi_top_background.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-hdpi/top_background.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xhdpi_girl.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xhdpi/girl.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxhdpi_imgimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxhdpi/imgimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxhdpi_facebook.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxhdpi/facebook.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xhdpi_google.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xhdpi/google.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-hdpi_bottom_white.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-hdpi/bottom_white.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-mdpi_google.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-mdpi/google.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxhdpi_google.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxhdpi/google.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-mdpi_labourimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-mdpi/labourimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/layout_activity_login.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xhdpi_labourimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xhdpi/labourimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-ldpi_google.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-ldpi/google.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxxhdpi_google.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxxhdpi/google.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable_button_background_file.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable/button_background_file.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/layout_activity_register.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxxhdpi_girl.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxxhdpi/girl.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-mdpi_facebook.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-mdpi/facebook.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable_second_button_design.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable/second_button_design.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-ldpi_facebook.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-ldpi/facebook.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxxhdpi_bottom_white.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxxhdpi/bottom_white.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/layout_activity_final_job_view.xml.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_final_job_view.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/font_playpenregular.ttf.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/font/playpenregular.ttf"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xhdpi_imgimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xhdpi/imgimg.jpg"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-ldpi_top_background.png.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-ldpi/top_background.png"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-merged_res-45:/drawable-xxhdpi_labourimg.jpg.flat",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/drawable-xxhdpi/labourimg.jpg"
+    }
+]

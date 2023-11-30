@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-mergeDebugResources-44:/layout/activity_login.xml",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-mergeDebugResources-44:/layout/activity_final_page.xml",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_final_page.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-mergeDebugResources-44:/layout/activity_user.xml",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_user.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-mergeDebugResources-44:/layout/activity_register.xml",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-mergeDebugResources-44:/layout/activity_job.xml",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_job.xml"
+    },
+    {
+        "merged": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-mergeDebugResources-44:/layout/activity_final_job_view.xml",
+        "source": "/home/adityasharma/.gradle/daemon/8.0/com.aditya.labourdigital.app-main-47:/layout/activity_final_job_view.xml"
+    },
+    {
+        "merged": "com.aditya.labourdigital.app-mergeDebugResources-44:/layout/activity_final_job_view.xml",
+        "source": "com.aditya.labourdigital.app-main-47:/layout/activity_final_job_view.xml"
+    }
+]

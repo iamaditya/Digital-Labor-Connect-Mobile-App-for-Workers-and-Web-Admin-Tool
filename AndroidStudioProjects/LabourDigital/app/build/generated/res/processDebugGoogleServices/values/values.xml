@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://digitallabour-8bffd-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">404091137675</string>
+    <string name="google_api_key" translatable="false">AIzaSyAoVghP6U4Z0Yoqa2SRcZdOEbVsv5Y3JZc</string>
+    <string name="google_app_id" translatable="false">1:404091137675:android:63ba26bd2df719d656ae8e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAoVghP6U4Z0Yoqa2SRcZdOEbVsv5Y3JZc</string>
+    <string name="google_storage_bucket" translatable="false">digitallabour-8bffd.appspot.com</string>
+    <string name="project_id" translatable="false">digitallabour-8bffd</string>
+</resources>
