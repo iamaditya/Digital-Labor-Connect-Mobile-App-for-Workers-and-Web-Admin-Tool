@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="homestyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Labor Connect</div>
+        <div class="right">
+          <ul>
+            <li>Home</li>
+            <li>User</li>
+            <li>Profile</li>
+            <li>Logout</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first">
+        <div class="contianer">
+          <form class="form" id="form">
+            <p class="title">Register</p>
+            <p class="message">Signup now and get full access to our app.</p>
+            <div class="flex">
+              <label>
+                <input
+                  class="input"
+                  type="text"
+                  id="name"
+                  placeholder=""
+                  required=""
+                />
+                <span>Firstname</span>
+              </label>
+            </div>
+
+            <label>
+              <input
+                class="input"
+                type="email"
+                id="email"
+                placeholder=""
+                required=""
+              />
+              <span>Email</span>
+            </label>
+
+            <label>
+              <input
+                class="input"
+                type="password"
+                id="password"
+                placeholder=""
+                required=""
+              />
+              <span>Password</span>
+            </label>
+            <button class="submit" type="submit" id="submit">Submit</button>
+            <p class="signin">
+              Already have an acount ? <a href="index.html">Signin</a>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+  import {
+    getDatabase,
+    ref,
+    set,
+  } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js";
+  import {
+    getAuth,
+    createUserWithEmailAndPassword,
+  } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyBqxl2obXLR1KglrmOFvkgxEZ0J-EHC0ds",
+    authDomain: "digitallabour-8bffd.firebaseapp.com",
+    databaseURL: "https://digitallabour-8bffd-default-rtdb.firebaseio.com",
+    projectId: "digitallabour-8bffd",
+    storageBucket: "digitallabour-8bffd.appspot.com",
+    messagingSenderId: "404091137675",
+    appId: "1:404091137675:web:ea002bba1991c50656ae8e",
+    measurementId: "G-S1KB6F3CB9",
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  const auth = getAuth(app);
+
+  const userForm = document.getElementById("form");
+
+  userForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    const userid = generateUserId();
+    // Call the adduser function
+    adduser(userid, name, email, password);
+    alert("Successful");
+  });
+
+  function generateUserId() {
+    // Generate a unique ID using a combination of timestamps and random values
+    const timestamp = new Date().getTime();
+    const randomValue = Math.floor(Math.random() * 1000000);
+    return `${timestamp}-${randomValue}`;
+  }
+
+  function adduser(userid, name, email, password) {
+    const db = getDatabase();
+    const reference = ref(db, "Users/" + email); // Specify the path to the users' data
+    set(reference, {
+      Name: name,
+      Email: email,
+      password: password,
+    });
+    userForm.reset();
+  }
+</script>

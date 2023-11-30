@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="registerstyles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form" id="form">
+        <h1>Register</h1>
+        <div class="inputBox">
+          <input type="text" id="name" placeholder="Name" required />
+          <i class="bx bxs-envelope"></i>
+        </div>
+
+        <div class="inputBox">
+          <input type="email" id="email" placeholder="Email" required />
+          <i class="bx bxs-envelope"></i>
+        </div>
+        <div class="inputBox">
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+
+        <button type="submit" id="registerbutton" class="btn">Register</button>
+      </form>
+    </div>
+  </body>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+    import {
+      getDatabase,
+      ref,
+      set,
+    } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js";
+    import {
+      getAuth,
+      createUserWithEmailAndPassword,
+    } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyBqxl2obXLR1KglrmOFvkgxEZ0J-EHC0ds",
+      authDomain: "digitallabour-8bffd.firebaseapp.com",
+      databaseURL: "https://digitallabour-8bffd-default-rtdb.firebaseio.com",
+      projectId: "digitallabour-8bffd",
+      storageBucket: "digitallabour-8bffd.appspot.com",
+      messagingSenderId: "404091137675",
+      appId: "1:404091137675:web:ea002bba1991c50656ae8e",
+      measurementId: "G-S1KB6F3CB9",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth(app);
+    const userForm = document.getElementById("form");
+
+    registerbutton.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+      const name = document.getElementById("name").value;
+
+      const userid = generateUserId();
+
+      createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          alert("User created successfully.");
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          alert(`Error (${errorCode}): ${errorMessage}`);
+        });
+      adduser(userid, name, email, password);
+      alert("Successful");
+      //window.location.href = "index.html";
+    });
+    function generateUserId() {
+      const timestamp = new Date().getTime();
+      const randomValue = Math.floor(Math.random() * 1000000);
+      return `${timestamp}-${randomValue}`;
+    }
+
+    function adduser(userid, name, email, password) {
+      const db = getDatabase();
+
+      //  const reference = ref(db, "Users/" + email);
+      const encodedEmail = email.replace(/\./g, ",");
+      const reference = ref(db, "Users/" + encodedEmail);
+
+      set(reference, {
+        Name: name,
+        Email: email,
+        password: password,
+      });
+      userForm.reset();
+    }
+  </script>
+</html>
